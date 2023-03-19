@@ -1,0 +1,51 @@
+*{
+    font-family: sans-serif;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    box-shadow: 0 0 0 1px;
+    line-height: 75px;
+    font-size: 60px;
+    cursor: pointer;
+    border-radius: 4px; 
+
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+
+}
+
+#gameTitle {
+    color: rgb(101, 45, 233);
+    font-family: monospace;
+    font-size: 30px;
+}
+
+
+#gameContainer {
+    text-align: center;
+}
+
+#statusText {
+    color: rgb(252, 91, 91);
+    font-family: monospace;
+    font-size: 25px;
+}
+
+#restartBtn {
+
+    font-size: 17px; 
+    background-color: #ffffff; 
+    cursor: pointer;
+    border-radius: 12px; 
+    width: 80px; 
+    height: 35px; 
+ 
+}
